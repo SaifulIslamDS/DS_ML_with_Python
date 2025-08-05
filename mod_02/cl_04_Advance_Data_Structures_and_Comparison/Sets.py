@@ -14,23 +14,19 @@
 # Duplicate values will be ignored:
 
 thisset = {"apple", "banana", "cherry", "apple"}
-
 print(thisset)
 
 
 # True and 1 is considered the same value:
 
 thisset = {"apple", "banana", "cherry", True, 1, 2}
-
 print(thisset)
 
 
 # Add an item to a set, using the add() method:
 
 thisset = {"apple", "banana", "cherry"}
-
 thisset.add("orange")
-
 print(thisset)
 
 
