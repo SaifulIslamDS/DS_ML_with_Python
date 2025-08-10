@@ -2,8 +2,6 @@
 class Avenger:
     pass  # We'll fill this later
 
-
-
 # Creating a Class & Object
 class Avenger:
     def fight(self):
