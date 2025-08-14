@@ -46,8 +46,9 @@ inno.skills()  # Output: I can code in C++
 
 
 class Mom:
+    cook = "Mother"
     def cooking(self):
-        print("Cooking delicious biryani")
+        print(f"{self.cook} is cooking delicious biryani")
 
 class Inno(Mom):
     pass
