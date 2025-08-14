@@ -26,7 +26,6 @@
 # ✅ Topic: Single Inheritance
 # One class (child) inherits from one parent class.
 
-
 class Father:
     def skills(self):
         print("I can code in C++")

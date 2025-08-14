@@ -44,13 +44,16 @@ class Avenger:
 
 spiderman = Avenger("Spider-Man", "Web-Slinging")
 spiderman.show()
+ironman = Avenger("Iron-Man", "Genius-level intellect")
+ironman.show()
+captain_america = Avenger("Captain America", "Super Soldier Serum")
+captain_america.show()
 
 
 
 # pass statement
 class BlackWidow:
     pass  # To be developed in next update
-
 
 
 # Intro to Inheritance
@@ -65,7 +68,3 @@ class IronMan(Hero):
 tony = IronMan()
 tony.protect()  # Inherited
 tony.fly()      # Own method
-
-
-
-
