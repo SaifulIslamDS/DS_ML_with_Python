@@ -21,7 +21,6 @@ order_id INT ,
 amount decimal(10,2)
 );
 
-
 select customers.customer_id, customers.name, 
 orders.order_id,
 orders.product, orders.customer_id as customer,
