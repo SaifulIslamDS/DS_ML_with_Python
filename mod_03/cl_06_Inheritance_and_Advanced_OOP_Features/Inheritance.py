@@ -174,9 +174,6 @@ print(dad.get_fund())
 # print(dad.__secret_fund)  # ❌ Will raise an error
 
 
-
-
-
 # 🐙 Scene 8: Shape-shifting Mom
 # Mrs. Classy (on call):
 # “I’m a cook, a doctor, a teacher, and a detective—all depending on the situation!”
