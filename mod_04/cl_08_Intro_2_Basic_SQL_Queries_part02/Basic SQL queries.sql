@@ -12,7 +12,6 @@ FROM grandfather_siblings;
 SELECT gift_description AS gift_type, estimated_value AS gift_value, year AS gift_year
 FROM father_gifts;
 
-
 -- Grandfather's siblings who are brothers
 SELECT name AS relative_name, wealth
 FROM grandfather_siblings
