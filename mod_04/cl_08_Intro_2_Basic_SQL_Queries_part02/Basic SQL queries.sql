@@ -90,7 +90,6 @@ FROM grandfather
 LEFT JOIN grandfather_siblings
 ON grandfather.id = grandfather_siblings.grandparent_id;
 
-
 -- List all sisters who are married (assuming spouse_name is not null)
 SELECT name AS relative_name
 FROM grandfather_siblings
@@ -103,6 +102,3 @@ FROM father;
 -- Count how many different gift types were received
 SELECT COUNT(DISTINCT gift_description) AS unique_gift_types
 FROM father_gifts;
-
-
-
