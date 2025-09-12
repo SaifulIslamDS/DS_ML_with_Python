@@ -8,12 +8,10 @@
 
 import numpy as np
 
-
 # Mr. Sunny tries typing pizza names as text: "cheese", "bbq", "veg", "spicy", etc., and ends up making a mess.
 # “Instead of dealing with individual items, let’s use Sunny arrays. They let us organize the menu and do calculations faster.”
 menu = np.array(['cheese', 'bbq', 'veg', 'spicy'])
 print(menu)
-
 
 # Mr. Sunny calculates 20% discount on prices using lists. The result? BOOM! Python list error!
 # You say: “Let Sunny arrays handle math smoothly.”
