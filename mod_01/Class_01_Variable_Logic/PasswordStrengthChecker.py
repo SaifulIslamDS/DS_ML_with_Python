@@ -85,12 +85,3 @@ match score:
         print("Strength: Very Weak 🚫")
 
 print("Thanks for using Password Strength Checker!")
-
-
-
-
-
-
-
-
-
