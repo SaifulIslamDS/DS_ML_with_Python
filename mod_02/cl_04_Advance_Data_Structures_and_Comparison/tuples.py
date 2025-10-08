@@ -99,10 +99,10 @@ print(red)
 
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
-(green, *tropic, red) = fruits
+(green, *topic, red) = fruits
 
 print(green)
-print(tropic)
+print(topic)
 print(red)
 
 
