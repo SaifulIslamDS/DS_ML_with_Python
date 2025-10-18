@@ -18,13 +18,12 @@ print(menu)
 
 # Using list
 prices = [100, 200, 150]
-# prices * 0.8 → Error!
+prices * 0.8 # This will not work as expected
 
 # Sunny array
 prices_np = np.array([100, 200, 150])
 discounted = prices_np * 0.8
 print(discounted)
-
 
 # Story:
 # Mr. Sunny says: “I need to create boxes of pizzas, but I don’t know what to fill them with!”
@@ -39,8 +38,6 @@ print(discounted)
 
 empty_trays = np.zeros((2,3))
 print("Empty trays:\n", empty_trays)
-
-
 
 # Mr. Sunny: “The cheese lovers club is coming today. All trays must be full of cheese!”
 cheese_trays = np.ones((2,2))
