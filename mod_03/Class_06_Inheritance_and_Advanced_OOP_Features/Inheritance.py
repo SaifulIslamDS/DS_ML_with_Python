@@ -3,13 +3,9 @@
 # Mr. Object – The Dad (Husband)
 
 # Mrs. Classy – The Mom (Wife)
-
 # Inno – The Nerdy Son
-
 # Multi – The Clever Daughter
-
 # Grandpa OOP – The wise old man (Pops in randomly)
-
 
 # ☕ Scene 1: Introduction at the Breakfast Table
 # Narrator:

@@ -14,8 +14,6 @@ hulk = Avenger()
 ironman.fight()
 hulk.fight()
 
-
-
 # Introducing Methods
 class Avenger:
     def introduce(self, name):
@@ -24,14 +22,12 @@ class Avenger:
 ironman = Avenger()
 ironman.introduce("Iron Man")
 
-
 # Default Constructor​
 class Avenger:
     def __init__(self):
         print("A new Avenger has joined the team!")
 
 captain = Avenger()
-
 
 # Parameterized Constructor
 class Avenger:
@@ -49,12 +45,9 @@ ironman.show()
 captain_america = Avenger("Captain America", "Super Soldier Serum")
 captain_america.show()
 
-
-
 # pass statement
 class BlackWidow:
     pass  # To be developed in next update
-
 
 # Intro to Inheritance
 class Hero:
